@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         REGISTRY = 'trialfwrmrd.jfrog.io'           // 🔁 Replace with your JFrog domain
-        IMAGE_NAMESPACE = 'npm-repo'              // 🔁 Replace with your repo name in JFrog
+        IMAGE_NAMESPACE = 'npm-repo-docker'              // 🔁 Replace with your repo name in JFrog
         IMAGE_NAME = 'node-app'                           // 👈 Docker image name
         CREDENTIALS_ID = 'jfrog-creds'                    // 🔁 Jenkins credentials ID for JFrog
     }
